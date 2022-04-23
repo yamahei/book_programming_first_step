@@ -111,6 +111,10 @@ const input_data = `
 中井愛,31,1990年7月28日,女,B
 `;
 
+<!--
+    以降のコードはここに記述します
+-->
+
 </script>
 ```
 
@@ -131,7 +135,7 @@ for(let i=0; i<lines.length; i++){
     if(!line){ continue; }//空行はパス
 
     //列に分割
-    const colmuns = line.split(/\s*,\s*/g);
+    const colmuns = line.split(/\s*,\s*/);
     const [name, age, birth, sex, blood] = [...colmuns];
     if(name == "氏名"){ continue; }//見出し行はパス
 
@@ -157,7 +161,7 @@ console.log(objects);
 ```js
 //行→オブジェクト変換サブルーチン
 const line_to_object = function(line){
-    const [name, age, birth, sex, blood] = line.split(/\s*,\s*/g);
+    const [name, age, birth, sex, blood] = line.split(/\s*,\s*/);
     return { name, age, birth, sex, blood };
 };
 

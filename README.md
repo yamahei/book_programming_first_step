@@ -15,12 +15,12 @@
 - [拡張子とマークアップ言語](./markup/index.md)
 - [コマンドとシェルスクリプト](./shell/index.md)
 - [ブラウザとJavaScript](./javascript/index.md)
+- [プログラムの基本動作](./structure/index.md)
 
 ### 演習なし（理屈だけ）
 
 - [ファイルとフォルダ](./fundamental/index.md)
 - [オブジェクト指向って何](./programming_paradigm/index.md)
-- [プログラムの基本動作](./structure/index.md)
 
 ### ...検討中
 

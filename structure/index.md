@@ -135,7 +135,7 @@ for(let i=0; i<lines.length; i++){
     //列に分割
     const colmuns = line.split(/\s*,\s*/);
     const [name, age, birth, sex, blood] = [...colmuns];
-    if(name == "氏名"){ continue; }//見出し行はパス
+    if(name == "name"){ continue; }//見出し行はパス
 
     //結果作成＆格納
     const object = {
